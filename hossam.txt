@@ -1,0 +1,96 @@
+/*
+ * SSD_Config.h
+ *
+ *  Created on: ??þ/??þ/????
+ *      Author: ahmed
+ */
+
+#ifndef _SSD_CONFIG_H_
+#define _SSD_CONFIG_H_
+//kl display h3rf 11 macro w ana 3ndy 6 segment
+/*Comment : Range Comman Cathode or Comman anaode */
+//kml b2a lba2y eseven segement
+#define SSD_u8DispCount		2	//htsh8l kam 7 seg mn el 6
+
+/*********************************seg_1************************************/
+#define SSD_u8DispType_7seg_1	 		SSD_u8CommanCathode// anadoe wla cathode
+#define SSD_u8Disp1InitValue_Seg1		SSD_u8Disp0	 //htl3 3leha eh fy elbdaih
+#define SSD_u8DispONOff_1	 			SSD_u8OnState	//mfto7h wla m2folh
+
+
+#define SSD_u8Disp1Comman	DIO_u8Pin7
+#define SSD_u8Disp1SegA		DIO_u8Pin0
+#define SSD_u8Disp1SegB		DIO_u8Pin1
+#define SSD_u8Disp1SegC		DIO_u8Pin2
+#define SSD_u8Disp1SegD		DIO_u8Pin3
+#define SSD_u8Disp1SegE		DIO_u8Pin4
+#define SSD_u8Disp1SegF		DIO_u8Pin5
+#define SSD_u8Disp1SegG		DIO_u8Pin6
+/*********************************seg_2************************************/
+#define SSD_u8DispType_7seg_2	 		SSD_u8CommanCathode// anadoe wla cathode
+#define SSD_u8Disp1InitValue_Seg2		SSD_u8Disp0	 //htl3 3leha eh fy elbdaih
+#define SSD_u8DispONOff_2	 			SSD_u8OnState	//mfto7h wla m2folh
+
+#define SSD_u8Disp2Comman	DIO_u8Pin8
+#define SSD_u8Disp2SegA		DIO_u8Pin0
+#define SSD_u8Disp2SegB		DIO_u8Pin1
+#define SSD_u8Disp2SegC		DIO_u8Pin2
+#define SSD_u8Disp2SegD		DIO_u8Pin3
+#define SSD_u8Disp2SegE		DIO_u8Pin4
+#define SSD_u8Disp2SegF		DIO_u8Pin5
+#define SSD_u8Disp2SegG		DIO_u8Pin6
+/*********************************seg_3************************************/
+#define SSD_u8DispType_7seg_3	 		SSD_u8CommanCathode// anadoe wla cathode
+#define SSD_u8Disp1InitValue_Seg3		SSD_u8Disp0	 //htl3 3leha eh fy elbdaih
+#define SSD_u8DispONOff_3	 			SSD_u8OnState	//mfto7h wla m2folh
+
+#define SSD_u8Disp3Comman	DIO_u8Pin9
+#define SSD_u8Disp3SegA		DIO_u8Pin0
+#define SSD_u8Disp3SegB		DIO_u8Pin1
+#define SSD_u8Disp3SegC		DIO_u8Pin2
+#define SSD_u8Disp3SegD		DIO_u8Pin3
+#define SSD_u8Disp3SegE		DIO_u8Pin4
+#define SSD_u8Disp3SegF		DIO_u8Pin5
+#define SSD_u8Disp3SegG		DIO_u8Pin6
+/*********************************seg_4************************************/
+#define SSD_u8DispType_7seg_4	 		SSD_u8CommanCathode// anadoe wla cathode
+#define SSD_u8Disp1InitValue_Seg4		SSD_u8Disp0	 //htl3 3leha eh fy elbdaih
+#define SSD_u8DispONOff_4	 			SSD_u8OnState	//mfto7h wla m2folh
+
+#define SSD_u8Disp4Comman	DIO_u8Pin10
+#define SSD_u8Disp4SegA		DIO_u8Pin0
+#define SSD_u8Disp4SegB		DIO_u8Pin1
+#define SSD_u8Disp4SegC		DIO_u8Pin2
+#define SSD_u8Disp4SegD		DIO_u8Pin3
+#define SSD_u8Disp4SegE		DIO_u8Pin4
+#define SSD_u8Disp4SegF		DIO_u8Pin5
+#define SSD_u8Disp4SegG		DIO_u8Pin6
+/*********************************seg_5************************************/
+#define SSD_u8DispType_7seg_5	 		SSD_u8CommanCathode// anadoe wla cathode
+#define SSD_u8Disp1InitValue_Seg5		SSD_u8Disp0	 //htl3 3leha eh fy elbdaih
+#define SSD_u8DispONOff_5	 			SSD_u8OnState	//mfto7h wla m2folh
+
+#define SSD_u8Disp5Comman	DIO_u8Pin30
+#define SSD_u8Disp5SegA		DIO_u8Pin1
+#define SSD_u8Disp5SegB		DIO_u8Pin2
+#define SSD_u8Disp5SegC		DIO_u8Pin3
+#define SSD_u8Disp5SegD		DIO_u8Pin4
+#define SSD_u8Disp5SegE		DIO_u8Pin5
+#define SSD_u8Disp5SegF		DIO_u8Pin6
+#define SSD_u8Disp5SegG		DIO_u8Pin7
+/*********************************seg_6************************************/
+#define SSD_u8DispType_7seg_6	 		SSD_u8CommanCathode// anadoe wla cathode
+#define SSD_u8Disp1InitValue_Seg6		SSD_u8Disp0	 //htl3 3leha eh fy elbdaih
+#define SSD_u8DispONOff_6	 			SSD_u8OnState	//mfto7h wla m2folh
+
+#define SSD_u8Disp6Comman	DIO_u8Pin24
+#define SSD_u8Disp6SegA		DIO_u8Pin1
+#define SSD_u8Disp6SegB		DIO_u8Pin2
+#define SSD_u8Disp6SegC		DIO_u8Pin3
+#define SSD_u8Disp6SegD		DIO_u8Pin4
+#define SSD_u8Disp6SegE		DIO_u8Pin5
+#define SSD_u8Disp6SegF		DIO_u8Pin6
+#define SSD_u8Disp6SegG		DIO_u8Pin7
+
+
+#endif /* SSD_CONFIGRATION_H_ */
